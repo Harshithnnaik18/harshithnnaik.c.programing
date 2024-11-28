@@ -3,7 +3,7 @@
 int main() {
     int num, reversedNum = 0, remainder, originalNum;
 
-    // chandan sb 
+    // harshith n naik
     printf("Enter an integer: ");
     scanf("%d", &num);
 
