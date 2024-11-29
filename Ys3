@@ -1,0 +1,47 @@
+#include <stdio.h>
+
+2
+
+3 int add(int a, int b) {
+
+4
+
+5
+
+6
+
+return a + b;
+
+}
+
+7
+
+8
+
+int main() {
+
+int (*funcPtr) (int, int) =
+
+add;
+
++
+
++
+
+10
+
+11
+
+int x = 10, y = 20;
+
+%d\n
+
+}
+
+printf("Sum of %d and %d is: ", x, y, funcPtr(x, y));
+
+12
+
+13
+
+return 0;
