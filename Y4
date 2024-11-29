@@ -1,0 +1,61 @@
+
+
+#include <stdio.h>
+
+Format
+
+> Console x
+
+Show Only Latest
+
+Clear History
+
+C addresspointer.c
+
+int main() {
+
+Run
+
+Array elements using pointer:
+
+Element 0:1
+
+3 3456 6
+
+int arr[] = {1, 2, 3, 4, 5};
+
+Element 1:2
+
+int *ptr = arr;
+
+printf("Array elements using
+
+Element 2:3
+
+Element 3:4
+
+pointer:\n");
+
+Element 4:5
+
+7
+
+8
+
+9
+
+for (int i = 0; i < 5; i++) {
+
+printf("Element %d:
+
+%d\n", i, *(ptr + i));
+
+}
+
+10
+
+11
+
+return 0;
+
+12 }
